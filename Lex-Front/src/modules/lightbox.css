@@ -1,0 +1,25 @@
+.lightbox{
+    position: relative;
+    display:flex;
+    transition: 0.2s all;
+    pointer-events: auto;
+    z-index: 1;
+    opacity: 1;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    animation: mymove 5s ;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+ 
+.hide-lightbox{
+
+    opacity:0;
+    pointer-events: none;
+    z-index: -1;
+}

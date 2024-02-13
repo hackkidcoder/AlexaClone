@@ -24,7 +24,7 @@ import Typography from '@mui/material/Typography';
 
 
 export const Alex = () => {
-  let surl="";
+  let nsurl="";
   let nwurl="";
   let nmurl="";
   const [hideLightbox, setHideLightbox] = useState(true);
